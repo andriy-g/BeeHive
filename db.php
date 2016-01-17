@@ -1,8 +1,8 @@
 <?php
-    $username = "andriyg_db";
-    $password = "a00139210";
+    $username = "Username";
+    $password = "DONT EVEN THINK ABOUT IT";
     $hostname = "localhost";
-    $database = "andriyg_bee_database";
+    $database = "_bee_database";
 
     $cnxn = @mysqli_connect($hostname, $username, $password,
                             $database)

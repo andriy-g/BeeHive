@@ -1,0 +1,111 @@
+CREATE DATABASE bee_database (
+sample_id INT PRIMARY KEY UNSIGNED AUTO_INCREMENT,
+hive_id VARCHAR(30) NOT NULL,
+collection_date DATE NOT NULL,
+sample_period INT UNSIGNED NOT NULL,
+number_mites INT UNSIGNED NOT NULL,
+time_stamp TIMESTAMP NOT NULL
+);
+
+submit_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (1, 33, '2015-03-07', 69, 90, '2015-01-26 12:38:43');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (2, 1, '2015-09-01', 67, 64, '2015-09-27 01:46:30');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (3, 61, '2015-07-16', 27, 53, '2015-05-19 02:50:02');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (4, 70, '2015-10-07', 68, 66, '2015-05-22 15:22:00');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (5, 3, '2015-01-12', 53, 4, '2015-07-24 18:24:52');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (6, 20, '2015-10-27', 12, 77, '2015-10-28 02:15:47');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (7, 5, '2015-08-03', 97, 75, '2015-04-21 23:28:04');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (8, 2, '2015-04-25', 48, 58, '2015-04-14 10:41:14');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (9, 36, '2015-07-08', 53, 97, '2015-12-27 12:02:02');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (10, 37, '2015-11-17', 64, 1, '2015-01-29 09:14:15');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (11, 95, '2015-11-03', 55, 25, '2015-08-14 07:26:24');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (12, 94, '2015-03-02', 79, 90, '2015-03-03 20:18:37');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (13, 10, '2015-10-18', 26, 14, '2015-03-02 22:39:42');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (14, 16, '2015-07-05', 32, 31, '2015-05-07 03:59:34');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (15, 81, '2015-09-05', 87, 81, '2015-08-12 20:55:36');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (16, 89, '2015-03-06', 84, 20, '2015-11-11 00:19:33');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (17, 79, '2015-05-07', 6, 66, '2015-06-23 17:42:16');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (18, 51, '2015-12-12', 93, 36, '2015-09-09 02:26:25');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (19, 4, '2015-05-02', 50, 61, '2015-11-10 11:21:07');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (20, 33, '2015-02-08', 27, 81, '2015-09-06 05:05:31');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (21, 99, '2015-07-20', 21, 77, '2015-06-19 08:58:44');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (22, 87, '2015-03-05', 11, 92, '2015-03-19 02:05:19');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (23, 100, '2015-03-25', 39, 99, '2015-11-02 21:51:30');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (24, 61, '2015-07-25', 46, 71, '2015-09-17 15:11:52');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (25, 10, '2015-01-20', 45, 84, '2015-03-02 10:07:25');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (26, 24, '2015-02-16', 50, 55, '2015-12-08 16:24:23');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (27, 14, '2015-01-21', 78, 99, '2015-07-22 02:36:06');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (28, 51, '2015-04-19', 27, 21, '2015-10-17 02:28:24');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (29, 10, '2015-12-21', 43, 95, '2015-03-08 21:05:21');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (30, 72, '2015-11-29', 26, 29, '2015-07-08 08:11:30');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (31, 66, '2015-09-29', 60, 18, '2015-07-15 13:40:47');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (32, 95, '2015-11-28', 31, 89, '2015-03-06 03:07:23');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (33, 50, '2015-01-27', 72, 21, '2015-10-29 05:38:47');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (34, 39, '2015-12-28', 26, 93, '2015-03-05 17:03:19');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (35, 94, '2015-03-17', 13, 62, '2015-08-05 18:17:38');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (36, 77, '2015-11-08', 70, 20, '2016-01-05 19:43:24');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (37, 86, '2015-12-23', 51, 17, '2015-02-15 21:25:44');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (38, 74, '2015-10-25', 56, 93, '2015-03-30 16:24:10');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (39, 23, '2015-05-25', 21, 47, '2015-05-08 09:37:39');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (40, 35, '2015-07-30', 54, 44, '2015-05-15 11:12:36');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (41, 82, '2015-10-22', 24, 42, '2015-01-23 22:50:20');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (42, 26, '2015-08-23', 3, 12, '2015-08-29 03:29:41');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (43, 25, '2015-05-01', 65, 88, '2015-07-25 21:52:52');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (44, 8, '2015-06-01', 30, 79, '2015-05-12 06:09:00');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (45, 33, '2015-05-18', 96, 71, '2015-04-17 14:25:01');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (46, 98, '2015-02-18', 53, 97, '2015-06-07 10:20:27');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (47, 26, '2015-12-19', 100, 9, '2015-11-10 00:11:40');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (48, 95, '2015-10-16', 87, 39, '2015-08-03 18:03:24');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (49, 7, '2015-10-21', 62, 61, '2015-02-07 22:15:09');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (50, 93, '2015-08-10', 47, 92, '2015-04-04 01:52:45');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (51, 41, '2015-04-26', 77, 19, '2015-02-19 11:31:02');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (52, 42, '2015-12-30', 74, 25, '2015-05-27 10:39:47');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (53, 66, '2015-05-23', 8, 62, '2015-04-15 19:17:03');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (54, 60, '2015-04-16', 82, 55, '2015-01-22 14:57:03');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (55, 43, '2015-05-23', 29, 24, '2015-10-06 01:24:14');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (56, 15, '2015-11-24', 28, 62, '2015-06-01 09:30:32');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (57, 83, '2015-01-27', 86, 23, '2015-11-19 13:49:10');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (58, 2, '2015-08-05', 5, 82, '2015-02-24 17:33:43');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (59, 58, '2015-04-22', 83, 44, '2015-07-03 22:54:48');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (60, 66, '2015-08-20', 64, 77, '2015-01-21 22:33:46');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (61, 65, '2015-04-23', 14, 80, '2015-07-18 16:05:12');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (62, 41, '2015-12-01', 53, 25, '2015-02-26 06:59:49');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (63, 97, '2015-05-25', 27, 63, '2015-08-28 14:21:16');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (64, 70, '2015-12-09', 61, 86, '2015-03-16 08:59:05');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (65, 57, '2015-04-04', 85, 9, '2015-12-09 20:59:20');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (66, 82, '2015-06-23', 67, 2, '2015-12-28 06:54:15');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (67, 23, '2015-07-06', 55, 54, '2015-08-20 04:42:19');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (68, 47, '2015-09-28', 27, 90, '2015-07-27 14:57:06');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (69, 28, '2015-06-01', 71, 88, '2015-12-13 14:58:50');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (70, 52, '2015-06-04', 19, 3, '2015-06-29 05:47:34');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (71, 93, '2015-06-26', 29, 60, '2015-11-17 07:54:37');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (72, 97, '2015-08-23', 61, 3, '2015-12-05 17:09:04');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (73, 85, '2015-10-24', 71, 3, '2015-06-07 16:20:55');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (74, 31, '2015-02-09', 67, 62, '2015-03-15 22:48:47');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (75, 39, '2015-10-29', 76, 42, '2015-06-14 05:15:25');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (76, 23, '2015-03-25', 61, 84, '2015-02-24 20:01:06');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (77, 38, '2015-05-04', 28, 97, '2015-03-03 12:42:23');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (78, 29, '2015-05-22', 27, 79, '2015-11-16 21:25:26');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (79, 36, '2015-02-04', 78, 8, '2015-12-25 22:29:57');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (80, 29, '2015-12-12', 64, 35, '2015-06-13 17:00:35');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (81, 100, '2015-10-06', 81, 85, '2016-01-04 02:51:03');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (82, 11, '2015-02-23', 14, 72, '2015-08-13 19:35:33');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (83, 97, '2015-08-31', 44, 36, '2015-11-26 19:26:07');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (84, 52, '2015-10-27', 69, 76, '2015-10-04 01:04:43');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (85, 89, '2015-10-21', 25, 61, '2015-03-26 00:59:42');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (86, 15, '2015-07-16', 87, 65, '2015-08-03 03:06:36');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (87, 83, '2015-10-19', 43, 100, '2015-06-20 02:33:43');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (88, 7, '2015-06-04', 57, 79, '2015-01-13 17:32:00');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (89, 74, '2015-02-27', 95, 56, '2015-01-21 21:37:07');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (90, 40, '2015-05-28', 17, 30, '2015-06-25 19:30:22');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (91, 59, '2015-11-05', 7, 79, '2015-03-12 08:56:22');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (92, 70, '2015-03-17', 56, 12, '2015-05-01 08:25:17');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (93, 54, '2015-12-12', 58, 90, '2015-04-08 08:55:48');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (94, 82, '2015-06-16', 91, 5, '2015-05-08 21:17:50');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (95, 69, '2015-02-26', 82, 20, '2015-09-16 05:27:48');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (96, 88, '2015-02-07', 95, 8, '2015-04-14 18:00:00');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (97, 5, '2015-01-08', 81, 6, '2015-05-16 21:47:59');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (98, 36, '2015-11-16', 35, 5, '2015-07-01 15:53:45');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (99, 47, '2015-02-19', 71, 32, '2015-09-13 11:29:50');
+insert into bee_sample_data (sample_id, hive_id, collection_date, sample_period, number_mites, time_stamp) values (100, 17, '2015-05-17', 62, 61, '2015-05-25 10:01:48');
