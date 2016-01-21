@@ -20,10 +20,10 @@
 
       //Instantiate a database object. Repalces db.php version
 
-      $username = "database";
-      $password = "DONT EVEN THINK ABOUT IT";
+      $username = "andriyg_db";
+    $password = "PAssWord";
       $hostname = "localhost";
-      $database = "bee_database";
+      $database = "andriyg_bee_database";
 
 
 

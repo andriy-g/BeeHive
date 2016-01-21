@@ -10,10 +10,9 @@
         $this->db = $db;
     }
 
-    public function getAllEntires()
+    public function getAllEntries()
     {
-      //SELECT stuff 
-      $query = "SELECT * FROM bee_sample_data";
+      $query = "SELECT hive_id, collection_date, sample_period, number_mites FROM bee_sample_data";
       return $this->db->query($query);
     }
   }
