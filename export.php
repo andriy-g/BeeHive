@@ -6,7 +6,7 @@ $DB_Password = "PASSWORD";             //MySQL Password
 $DB_DBName = "andriyg_bee_database";         //MySQL Database Name
 $DB_TBLName = "bee_sample_data"; //MySQL Table Name
 $filename = "beedata";         //File Name
-/*******YOU DO NOT NEED TO EDIT ANYTHING BELOW THIS LINE*******/
+
 //create MySQL connection
 $sql = "Select * from $DB_TBLName";
 $Connect = @mysql_connect($DB_Server, $DB_Username, $DB_Password) or die("Couldn't connect to MySQL:<br>" . mysql_error() . "<br>" . mysql_errno());
