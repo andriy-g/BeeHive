@@ -1,9 +1,10 @@
+
 <?php
 
 
 
   $username = "andriyg_db";;
-  $password = "PAssWord";
+  $password = "PASSWORD";
   $hostname = "localhost";
   $database = "andriyg_bee_database";
 

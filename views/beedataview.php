@@ -10,6 +10,9 @@
       <div class="row">
         <div class="col-md-12">
           <h4> Contacts List </h4>
+          <form method="get" action="export.php">
+              <button type="submit">Download Data</button>
+          </form>
           <div class="table-responsive">
             <table id="mytable" class="table table-bordred table-striped">
                 <thead>
